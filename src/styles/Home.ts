@@ -24,9 +24,7 @@ export const SearchSection = styled.section`
   align-items: flex-end;
   width: 100vw;
   height: 47.38rem;
-
-
-  background-image: url('src/assets/marvel-background.png');
+  background: url('../assets/marvel-background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -75,6 +73,8 @@ export const SearchButton = styled.button`
   background-color: green;
   border-style: none;
   border-radius: 0 0.5rem 0.5rem 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 `
 
 export const ComicsSection = styled.section`
