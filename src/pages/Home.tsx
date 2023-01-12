@@ -30,7 +30,7 @@ export function Home() {
 
   useEffect(() => {
     axios
-      .get(`http://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`)
+      .get(`https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`)
 
       .then(response => {
         const data = response.data.data.results
