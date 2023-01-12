@@ -24,7 +24,7 @@ export const SearchSection = styled.section`
   align-items: flex-end;
   width: 100vw;
   height: 47.38rem;
-  background: url('../assets/marvel-background.png');
+  background: url('/marvel-background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
