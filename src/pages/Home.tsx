@@ -85,7 +85,7 @@ export function Home() {
 
               if (result) {
                 return (
-                  <Card key={comic.id} id={comic.id} title={comic.title} image={comic.thumbnail.path + '.' + comic.thumbnail.extension} price={comic.prices[0].price} handleModal={handleModal} />
+                  <Card key={comic.id} id={comic.id} title={comic.title} image={comic.thumbnail.path + '.' + comic.thumbnail.extension} price={comic.prices[0].price === 0 ? 'Sem Estoque' : 'USD ' + comic.prices[0].price} handleModal={handleModal} />
                 )
               }
 
