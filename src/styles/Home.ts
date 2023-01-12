@@ -25,7 +25,7 @@ export const SearchSection = styled.section`
   height: 47.38rem;
 
 
-  background-image: url('src/assets/marvel-background.png');
+  background-image: url("../public/marvel-background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
