@@ -1,11 +1,8 @@
-import { CloseButtonContainer, InfoContainer, MapContainer, ModalBackground, ModalCard, ModalContainer, MoreInfo, MoreInfoContainer, SendButton } from "../styles/ModalMap";
+import { CloseButtonContainer, ModalBackground, ModalContainer, SendButton } from "../styles/ModalMap";
 import { X } from 'phosphor-react'
-import { Card } from "./Card";
-import axios from "axios";
-import { useEffect, useState } from "react";
 import { GoogleMaps } from "./GoogleMaps";
 
-export function ModalMap({ setModal, comicsData, selectedComic, setModalMap, handleSend }: any) {
+export function ModalMap({ setModalMap, handleSend }: any) {
 
   return (
     <ModalBackground>

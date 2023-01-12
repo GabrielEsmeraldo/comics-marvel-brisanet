@@ -9,14 +9,10 @@ export function GoogleMaps() {
     googleMapsApiKey: "AIzaSyD4342M7Ws-3hGAfI-5_7WPpSKrQerduNk"
   })
 
-  function handleClick() {
-    console.log('clicou')
-  }
-
   return (
     <GoogleMapsContainer >
       {isLoaded ? (
-        <GoogleMap onClick={() => handleClick()}
+        <GoogleMap
           mapContainerStyle={{ width: '100%', height: '100%' }}
           center={{
             lat: -7.220936637730521,

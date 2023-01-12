@@ -1,9 +1,5 @@
 import { CloseButtonContainer, InfoContainer, ModalBackground, ModalCard, ModalContainer, MoreInfo, MoreInfoContainer } from "../styles/Modal";
 import { X } from 'phosphor-react'
-import { Card } from "./Card";
-import axios from "axios";
-import { useEffect, useState } from "react";
-import { ModalMap } from "./ModalMap";
 
 export function Modal({ setModal, comicsData, selectedComic, handleModalMap }: any) {
 
