@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import MarvelBackground from '../assets/marvel-background.png'
 
 export const ComicsCard = styled.div`
   width: 250px;
@@ -25,7 +26,7 @@ export const SearchSection = styled.section`
   height: 47.38rem;
 
 
-  background-image: url("../assets/marvel-background.png");
+  background-image: url('src/assets/marvel-background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -20,10 +20,7 @@ export function Home() {
   const [keyWords, setKeyWords] = useState('')
   const [modalMap, setModalMap] = useState(false)
 
-  console.log(comicsData)
-
   function handleModalMap() {
-    console.log('Hello')
     setModalMap(true)
     setModal(false)
   }
@@ -54,7 +51,7 @@ export function Home() {
     setKeyWords(event.target.searchInput.value)
   }
 
-  function handleSend(){
+  function handleSend() {
     setModal(false)
     setModalMap(false)
   }
@@ -96,7 +93,7 @@ export function Home() {
           }
 
           {modal && <Modal setModal={setModal} comicsData={comicsData} selectedComic={selectedComic} handleModalMap={handleModalMap} />}
-          {modalMap && <ModalMap setModalMap={setModalMap} handleSend={handleSend}/>}
+          {modalMap && <ModalMap setModalMap={setModalMap} handleSend={handleSend} />}
         </ComicContainer>
       </ComicsSection>
 
